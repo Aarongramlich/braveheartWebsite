@@ -3,8 +3,95 @@
 
 {% block body_block %}
 
+<div class="container-fullwidth"  style="background-color:#2d5d7b;height:500px;">
+<div class="container pt-5 pb-5 mb-5">
 
+<div class="row">
+  <div class="col-4" style="margin-top: 100px;">
+  	<div class="position-fixed pt-5">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Understanding CCPA</a>
+      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Does my business qualify?</a>
+      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Preparing for compliance</a>
+      <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Mandatory security measures</a>
+    </div>
+    </div>
+  </div>
+  <div class="col-8 p-5 complianceText">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+      	<h2>California Consumer Privacy Act</h2>
+      	<br>
+      	The California Consumer Privacy Act (CCPA) is a bill that enhances privacy rights and consumer protection for residents in the state of California. The bill was passed on June 28, 2018 and becomes effective on January 1, 2020.
+      	<br>
+      	<br>
+      	<h4>New legislation has created a more enforceable framework for businesses, by:</h4>
+      	<ul><br>
+      		<li>Creates a more structured understanding of "personal information".</li>
+      		
+      		<li>Empowers California consumers with new data privacy rights, including:
+      			
+      			<br>
+      			<ol>
+      				<li>Right to know</li>
+      				<li>Right to access</li>
+      				<li>Right to delete</li>
+      				<li>Right to opt-out of the sale of data</li>
+      			</ol>
+      		</li>
+      		
+      		<li>
+      			Requiring designated methods for submitting data request, including at mininum a toll-free telephone number, and at least one other channel defined by individual businesses.
+      		</li>
+      		
+      		<li>
+      			Enforces processes be in place to obtain consent on the data sharing of minors.
+      		</li>
+      		
+      		<li>
+      			Automatic fines up to $7,500 for each intentional violation and $2,500 for each unintentional violation.
+      		</li>
+      	</ul>
 
+      	<h4>There are some exceptions to the law. CCPA will not restrict your business from:</h4><br>
+      	<ul>
+      		<li>Complying with federal, state, or local laws</li>
+      		<li>Complying with civil, criminal, or regulatory inquiries and investigations</li>
+      		<li>Collecting, using, retaining, selling, or disclosing consumer information that is de-identified or aggregate. Businesses must not attempt to re-identify these consumers.</li>
+      	</ul>
+      </div>
+
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+      	<h2>CCPA applies to organizations that conduct business in California, and stafisfy one of the following three conditions:</h2>
+      	<br>
+      	<ol>
+      		<li>Gross revenue in excess of $25 million</li>
+      		<li>Annually buys, receives, sells, or shares the personal information of 50,000 or more conumers, households, or devices (individually or in combination)</li>
+      		<li>Derives 50% or more of it's annual revenue from the sale of consumer personal information</li>
+      	</ol>
+
+      </div>
+
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+      	<h2>Organizations that meet CCPA criteria need to prepare for compliance.</h2><br>
+      	<ol>
+      		<li>Establish and maintain a data inventory of personal information collected or sold from California residents.
+      		</li>
+      		<li>Revise and update privacy notices.</li>
+      		<li>Verifiable consumer requests.</li>
+      		<li>Access rights.</li>
+      		<li>Erasure rights.</li>
+      		<li>Right to opt-out of sale of personal information.</li>
+      		<li>Update service level agreements with 3rd party data processers.</li>
+      		<li>Train personnel with access to personal information about CCPA requirements.</li>
+      	</ol>
+      </div>
+      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+    </div>
+  </div>
+</div>
+</div>
 
 
 {% endblock %}

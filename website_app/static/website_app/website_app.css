@@ -1,6 +1,8 @@
 body{
 	font-family: 'Montserrat', sans-serif;
+
 }
+
 
 .nav-item{
 	margin:.8em;
@@ -134,9 +136,14 @@ STYLING FOR PROSPECT_FORM.HTML*/
 }
 
 /*
-STYLING FOR CCPA_DETAIL.HTML*/
+STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
-
+.complianceText{
+	margin-top: 100px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
+}
 
 
 /*OLD*/
