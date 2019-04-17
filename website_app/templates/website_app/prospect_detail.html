@@ -1,6 +1,60 @@
 {% extends 'website_app/base.html' %}
+{% load static %}
 
 
 {% block body_block %}
+
+<div class="container-fullwidth"  style="background-color:#2d5d7b;height:500px;">
+</div>
+<div class="container pt-5" style="margin-top: -475px">
+	<div class="jumbotron j3 mb-5" style="text-align: center">
+		
+
+		<img src="{% static 'website_app/success.svg' %}" class="img-fluid pb-5" width="100" height="100" alt="">
+
+		<h1>Thanks for reaching out!</h1>
+		<h2>Our team will take a look and respond shortly.</h2>
+		<!-- <br>
+		<br>
+		<br>
+		<h3>In the meantime, you may be interested in checking out some of our resources:</h3> -->
+
+		<div class="container-fullwidth" style="margin-top: 80px;border-top: 1px #e8e8e8 solid;">
+				<h3 class="resources">In the meantime, you may be interested in checking out some of our resources:</h3>
+				<div class="row">
+						<div class="col-sm resourceTitle mt-5">BUSINESS & COMPLIANCE SOLUTIONS
+							<br><div class="resourceBody">With new data privacy restrictions comes necessary changes to stay compliant. See the report here.</div>
+							<br>
+							<br>
+							<div class="btn btn-link" style="text-align:left">Read now</div>  
+						</div>
+
+						<div class="col-sm resourceTitle mt-5">TECHNOLOGY<br> SOLUTIONS
+							<br><div class="resourceBody">New to data compliance? See how to best prepare yourself for data compliance. </div> 
+							<br>
+							<br>
+							<br>
+							<br>
+							<div class="btn btn-link" style="text-align:left">Read now</div> 
+						</div>
+
+						<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+							<br><div class="resourceBody">The Braveheart Data experience makes it easy for your company to stay compliant and handle consumer data requests. See how.</div>
+							<br>
+							<br>
+							<div class="btn btn-link" style="text-align:left">See whitepaper</div>
+						</div>
+
+						<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+							<br><div class="resourceBody">Wondering what Braveheart Data can do for your business? Visit our library of demo videos to find out.</div>
+							<br>
+							<br>
+							<br>
+							<div class="btn btn-link" style="text-align:left">Watch now</div>
+						</div>
+					</div>
+		</div>
+</div>
+</div>
 
 {% endblock %}

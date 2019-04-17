@@ -12,11 +12,11 @@
 <div class="container">
 	<div class="jumbotron" style="background-color:#1475BE;">
 		<div id='home_banner'>
-			<h1 class='heroStatement' style="font-size: 1.8em;font-weight: 400;">Your customers expect data privacy, and we're here to help you give it to them.</h1>
+			<h1 class='heroStatement' style="font-size: 1.9em;font-weight: 400;">Your customers expect data privacy, and we're here to help you give it to them.</h1>
 			<h6 class='mt-4' style="font-weight: 300;">Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
 			<div class="row">
 			<div class="col-sm">
-				<button type="button" class="btn btn-success" style="float: center;width: 200px;font-weight: 600;">Learn More</button>
+				<a href="{% url 'website_app:vision_detail' %}"><button type="button" class="btn btn-success" style="float: center;width: 200px;font-weight: 600;">Learn More</button></a>
 			</div>
 		</div>
 		</div>
@@ -97,7 +97,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm pt-3" style="font-size: .9em;">
-				<button type="button" class="btn btn-outline-info">Explore Solutions</button>
+				<a href="{% url 'website_app:products_detail' %}"><button type="button" class="btn btn-outline-info">Explore Solutions</button></a>
 			</div>
 		</div>
 		<!-- <div class="row">
@@ -116,29 +116,33 @@
 <div class="container-fullwidth" style="margin-top: 80px;border-top: 1px #e8e8e8 solid;">
 	<h1 class="resources">Resources</h1>
 	<div class="row">
-			<div class="col-sm resourceTitle mt-5">BUSINESS & COMPLIANCE SOLUTIONS
+			<div class="col-sm resourceTitle mt-5"><h4>How new legislation affects your business</h4>
 				<br><div class="resourceBody">With new data privacy restrictions comes necessary changes to stay compliant. See the report here.</div>
 				<br>
 				<br>
 				<div class="btn btn-link" style="text-align:left">Read now</div>  
 			</div>
 
-			<div class="col-sm resourceTitle mt-5">TECHNOLOGY<br> SOLUTIONS
+			<div class="col-sm resourceTitle mt-5"><h4>How to prepare for CCPA</h4>
 				<br><div class="resourceBody">New to data compliance? See how to best prepare yourself for data compliance. </div> 
+				<br>
 				<br>
 				<br>
 				<br>
 				<div class="btn btn-link" style="text-align:left">Read now</div> 
 			</div>
 
-			<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+			<div class="col-sm resourceTitle mt-5"><h4>The Braveheart Data experience</h4>
 				<br><div class="resourceBody">The Braveheart Data experience makes it easy for your company to stay compliant and handle consumer data requests. See how.</div>
+				<br>
 				<br>
 				<div class="btn btn-link" style="text-align:left">See whitepaper</div>
 			</div>
 
-			<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+			<div class="col-sm resourceTitle mt-5"><h4>Product Demos</h4>
 				<br><div class="resourceBody">Wondering what Braveheart Data can do for your business? Visit our library of demo videos to find out.</div>
+				<br>
+				<br>
 				<br>
 				<br>
 				<br>
@@ -150,7 +154,7 @@
 <div style="background-color: #1475BE;">
 	<p class="reachOutText">Want to find out how Braveheart Data can help your team?</p>
 	<div align="center">
-	<button type="button" class="btn btn-success reachOutButton">Reach out</button>
+	<a href="{% url 'website_app:sales_create' %}"><button type="button" class="btn btn-success reachOutButton"> Reach out</button></a>
 	</div>		
 </div>
 <div class="container footer">

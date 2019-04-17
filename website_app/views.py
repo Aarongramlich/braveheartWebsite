@@ -17,9 +17,9 @@ class IndexView(TemplateView):
 # class SupportDetailView(TemplateView):
 # 	pass
 
-class CcpaDetailView(TemplateView):
-	context_object_name = 'ccpa_detail'
-	template_name='website_app/index.html'
+class ComplianceDetailView(TemplateView):
+	context_object_name = 'compliance_detail'
+	template_name='website_app/compliance_detail.html'
 
 class ProductDetailView(TemplateView):
 	context_object_name = 'product_detail'

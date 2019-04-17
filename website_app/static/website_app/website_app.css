@@ -4,6 +4,7 @@ body{
 
 .nav-item{
 	margin:.8em;
+	margin-right: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +13,7 @@ body{
 }
 
 /*
-STYLING FOR INDEX.HTML*/
+STYLING FOR INDEX.HTML
 
 #challengeStatement{
 	align:center;
