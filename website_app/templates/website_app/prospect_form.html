@@ -1,0 +1,33 @@
+{% extends 'website_app/base.html' %}
+{% load staticfiles %}
+{% load crispy_forms_tags %}
+
+
+{% block body_block %}
+<div class="container-fullwidth" style="background-color:#2d5d7b;height:500px;">
+	<h1 style="padding-top: 20px; font-weight: 300;text-align:center;color:white;">Contact us</h1>
+</div>
+<div class="container pb-5 mb-5" style="margin-top: -400px;">
+	<div class="jumbotron j3">
+	<div class="row">
+		<div class="col-sm-6 contactUsText">
+			<p class="pt-5" style="font-size: 2em;">Our team wants to talk<br> to your team!</p>
+			<p style="font-weight:400;margin-top: 30px;"><i>Are you a non-profit?</i></p>
+			<p style="font-weight:400;">If you are a nonprofit or not-for-profit K-12 or higher education institution or system, you are eligible to receive packages at no cost. Reach out for more information!</p>
+		</div>
+		<div class="col-sm-6">
+			<form class="pt-5" method="POST">
+				{{form|crispy}}
+				<button type="submit" class="btn btn-primary" style="float: right">
+					Submit
+				</button>
+			</form>
+		</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+	
+
+

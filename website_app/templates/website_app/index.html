@@ -1,0 +1,180 @@
+{% extends 'website_app/base.html' %}
+{% load static %}
+
+{% block css_block %}
+	<link rel="stylesheet" type="text/css" href="{% static 'website_app/website_app.css' %}">
+{% endblock %}
+
+
+{% block body_block %}
+
+<div style="background-color: #1475BE">
+<div class="container">
+	<div class="jumbotron" style="background-color:#1475BE;">
+		<div id='home_banner'>
+			<h1 class='heroStatement' style="font-size: 1.8em;font-weight: 400;">Your customers expect data privacy, and we're here to help you give it to them.</h1>
+			<h6 class='mt-4' style="font-weight: 300;">Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
+			<div class="row">
+			<div class="col-sm">
+				<button type="button" class="btn btn-success" style="float: center;width: 200px;font-weight: 600;">Learn More</button>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container" align="center" style="padding-bottom: 100px;" >
+	<div class="jumbotron j2">
+		<!-- <p style="color:#5D5D5D; font-size: 1.1em;opacity: .7;"><strong>The Challenge</strong></p> -->
+		<p id="challengeStatement">We help companies stay compliant with the complex world<br> of data privacy legislation.</p>
+		
+		
+		<div class="row mt-5">
+			<div class="col-sm home-exp" style="padding: 20px">
+				<img src="{% static 'website_app/shield.svg' %}"  class="img-fluid" width="100" height="100" alt="">
+			</div>
+			<div class="col-sm home-exp" style="padding: 20px">
+				<img src="{% static 'website_app/cloud-computing.svg' %}"  class="img-fluid" width="100" height="100" alt="">
+			</div>
+			<div class="col-sm home-exp" style="padding: 20px">
+				<img src="{% static 'website_app/deal.svg' %}"  class="img-fluid" width="100" height="100" alt="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm solutionTitle">BUSINESS & COMPLIANCE SOLUTIONS
+			</div>
+			<div class="col-sm solutionTitle">TECHNOLOGY<br> SOLUTIONS
+				
+			</div>
+			<div class="col-sm solutionTitle">CUSTOMER SERVICE SOLUTIONS
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm home-exp">
+				Ensure you stay compliant with an ever-changing landscape.
+			</div>
+			<div class="col-sm home-exp">
+				Dedicated branded webpages your site can leverage.
+			</div>
+			<div class="col-sm home-exp">
+				Full service call-center that will scale with you.
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm home-exp">
+				Consumer identity verification
+			</div>
+			<div class="col-sm home-exp">
+				100% Cloud based
+			</div>
+			<div class="col-sm home-exp">
+				Omni-channel enabled
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm home-exp">
+				Comprehensive audit trail of consumer requests
+			</div>
+			<div class="col-sm home-exp">
+				Better handle consumer opt-out requests
+			</div>
+			<div class="col-sm home-exp">
+				24/7 Customer Service
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm home-exp">
+				Educational newsletters and webinars
+			</div>
+			<div class="col-sm home-exp">
+				Efficiently create and route consumer data requests
+			</div>
+			<div class="col-sm home-exp">
+				Routing rules and automated escalation 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm pt-3" style="font-size: .9em;">
+				<button type="button" class="btn btn-outline-info">Explore Solutions</button>
+			</div>
+		</div>
+		<!-- <div class="row">
+			<div class="col-sm" style="padding: 1px;font-size: .9em;">
+				<button type="button" class="btn btn-info">run analysis</button>
+			</div>
+			<div class="col-sm" style="padding: 1px;font-size: .9em;">
+				<button type="button" class="btn btn-info">explore companies</button>
+			</div>
+			<div class="col-sm" style="padding: 1px;font-size: .9em;">
+				<button type="button" class="btn btn-info">learn more</button>
+			</div>
+		</div> -->
+	</div>
+
+<div class="container-fullwidth" style="margin-top: 80px;border-top: 1px #e8e8e8 solid;">
+	<h1 class="resources">Resources</h1>
+	<div class="row">
+			<div class="col-sm resourceTitle mt-5">BUSINESS & COMPLIANCE SOLUTIONS
+				<br><div class="resourceBody">With new data privacy restrictions comes necessary changes to stay compliant. See the report here.</div>
+				<br>
+				<br>
+				<div class="btn btn-link" style="text-align:left">Read now</div>  
+			</div>
+
+			<div class="col-sm resourceTitle mt-5">TECHNOLOGY<br> SOLUTIONS
+				<br><div class="resourceBody">New to data compliance? See how to best prepare yourself for data compliance. </div> 
+				<br>
+				<br>
+				<br>
+				<div class="btn btn-link" style="text-align:left">Read now</div> 
+			</div>
+
+			<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+				<br><div class="resourceBody">The Braveheart Data experience makes it easy for your company to stay compliant and handle consumer data requests. See how.</div>
+				<br>
+				<div class="btn btn-link" style="text-align:left">See whitepaper</div>
+			</div>
+
+			<div class="col-sm resourceTitle mt-5">CUSTOMER SERVICE SOLUTIONS
+				<br><div class="resourceBody">Wondering what Braveheart Data can do for your business? Visit our library of demo videos to find out.</div>
+				<br>
+				<br>
+				<br>
+				<div class="btn btn-link" style="text-align:left">Watch now</div>
+			</div>
+		</div>
+</div>
+</div>
+<div style="background-color: #1475BE;">
+	<p class="reachOutText">Want to find out how Braveheart Data can help your team?</p>
+	<div align="center">
+	<button type="button" class="btn btn-success reachOutButton">Reach out</button>
+	</div>		
+</div>
+<div class="container footer">
+	<div class="row">
+		<div class="btn btn-link col-sm-3">About
+		</div>
+	
+		<div class="btn btn-link col-sm-3">Products
+		</div>
+
+		<!-- <div class="col">Services
+		</div> -->
+
+		<div class="btn btn-link col-sm-3">Contact Us
+		</div>
+
+		<div class="btn btn-link col-sm-3">Vision
+		</div>
+
+		<!-- <div class="col mt-5">Careers
+		</div> -->
+
+		<!-- <div class="col mt-5">FAQ
+		</div> -->
+	</div>
+</div>
+{% endblock %}
