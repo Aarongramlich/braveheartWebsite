@@ -3,8 +3,42 @@
 
 {% block body_block %}
 
-<!-- LOOK INTO USING BOOTSTRAP CARDS FOR THIS
- -->
+<div style="background-color: #1475BE">
+<div class="container">
+	<div class="jumbotron" style="background-color:#1475BE;">
+		<div id='solutions_banner'>
+			<h1 class='heroStatement' style="font-size: 2.5em;font-weight: 400;text-align: left">Set your company up for success.</h1>
+			<h6 class='mt-4' style="font-weight: 300; font-size:1.3em;text-align: left">Braveheart Data gives you everything you need to give your customers the data privacy experience they expect.</h6>
+			<div class="row">
+			<div class="col-sm">
+				<a href="{% url 'website_app:vision_detail' %}"><button type="button" class="btn btn-success" style="float: left;width: 200px;font-weight: 600;">Request a demo</button></a>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container">
+<nav>
+	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+	    <a class="nav-item nav-link active" id="nav-business-tab" data-toggle="tab" href="#nav-business" role="tab" aria-controls="nav-business" aria-selected="true">BUSINESS & COMPLIANCE SOLUTIONS</a>
+
+
+	    <a class="nav-item nav-link" id="nav-technology-tab" data-toggle="tab" href="#nav-technology" role="tab" aria-controls="nav-technology" aria-selected="true">TECHNOLOGY SOLUTIONS</a>
+
+	    <a class="nav-item nav-link" id="nav-service-tab" data-toggle="tab" href="#nav-customer-service" role="tab" aria-controls="nav-customer-service" aria-selected="true">CUSTOMER SERVICE SOLUTIONS</a>
+
+	</div>
+</nav>
+<div class="tab-content">
+	<div class="tab-pane fade show active" id="nav-business" role="tabpanel" aria-labelledby="nav-business-tab"><br>TEST BUSINESS</div>
+	<div class="tab-pane fade" id="nav-technology" role="tabpanel" aria-labelledby="nav-technology-tab">TEST TECHNOLOGY</div>
+	<div class="tab-pane fade" id="nav-customer-service" role="tabpanel" aria-labelledby="nav-service-tab">TEST SERVICE</div>
+</div>
+
+</div>
 
 
 {% endblock %}

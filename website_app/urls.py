@@ -8,7 +8,7 @@ urlpatterns = [
 	# path('support/',views.SupportCreateView.as_view(),name='support_create'),
 	# path('support/<int:pk>',views.SupportDetailView.as_view(),name='support_detail'),
 	path('compliance/',views.ComplianceDetailView.as_view(),name='compliance_detail'),
-	path('products/',views.ProductDetailView.as_view(),name='products_detail'),
+	path('solutions/',views.ProductDetailView.as_view(),name='products_detail'),
 	path('pricing/',views.PricingDetailView.as_view(),name='pricing_detail'),
 	# https://www.okta.com/pricing/#api-base-products
 	path('services/',views.ServicesDetailView.as_view(),name='services_detail'),
