@@ -5,7 +5,7 @@ body{
 
 
 .nav-item{
-	margin:.8em;
+	margin:1.1em;
 	margin-right: 20px;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -38,6 +38,22 @@ STYLING FOR INDEX.HTML
 	margin-left: 200px;
 	margin-top: 105px;
 	margin-bottom: 105px;
+}
+
+#home_accent_image2{
+
+	margin-top: -580px;
+	float:right;
+	width: 1000px;
+	
+}
+
+#home_accent_image3{
+
+	margin-top: -525px;
+	float:left;
+	width: 1000px;
+	
 }
 
 #compliance_banner{
@@ -125,6 +141,7 @@ STYLING FOR INDEX.HTML
 }
 
 
+
 /*
 STYLING FOR PROSPECT_FORM.HTML*/
 
@@ -149,6 +166,12 @@ STYLING FOR PROSPECT_FORM.HTML*/
 /*
 STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
+
+#header{
+	max-width: 100%;
+	max-height:auto;
+}
+
 .complianceText{
 	margin-top: -150px;
 	background-color: white;
@@ -157,6 +180,21 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
 }
 
+
+#accentImage1{
+	width: 380px;
+	height: 210px;
+	margin-top: -825px;
+	/*margin-left:200px;*/
+}
+
+#accentImage2{
+	width: 830px;
+	height: 400px;
+	margin-top: -500px;
+	float:right;
+	/*margin-left:200px;*/
+}
 
 /*OLD*/
 
