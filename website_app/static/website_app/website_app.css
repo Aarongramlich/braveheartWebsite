@@ -40,6 +40,17 @@ STYLING FOR INDEX.HTML
 	margin-bottom: 105px;
 }
 
+#compliance_banner{
+	background-color:#2d5d7b;
+	color: white;
+	text-align:center;
+	border-style:2px black;
+	margin-right: 200px;
+	margin-left: 200px;
+	margin-top: 105px;
+	margin-bottom: 105px;
+}
+
 /*.heroStatement{
 	position: relative;
 	top: 50%;
@@ -139,10 +150,11 @@ STYLING FOR PROSPECT_FORM.HTML*/
 STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
 .complianceText{
-	margin-top: 100px;
+	margin-top: -150px;
 	background-color: white;
 	border-radius: 20px;
 	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
+
 }
 
 

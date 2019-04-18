@@ -3,23 +3,42 @@
 
 {% block body_block %}
 
-<div class="container-fullwidth"  style="background-color:#2d5d7b;height:500px;">
+<div style="background-color:#2d5d7b">
+<div class="container">
+	<div class="jumbotron" style="background-color:#2d5d7b;">
+		<div id='compliance_banner'>
+			<h1 class='heroStatement' style="font-size: 1.9em;font-weight: 400;">Prepare for data compliance.</h1>
+			<h6 class='mt-4' style="font-weight: 300;">Knowing the details of data privacy will arm your teamw with the confidence to move forward with a sound action plan.</h6>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fullwidth">
 <div class="container pt-5 pb-5 mb-5">
 
 <div class="row">
-  <div class="col-4" style="margin-top: 100px;">
-  	<div class="position-fixed pt-5">
+  <div class="col-4" style="margin-top: -150px;">
+  	<div class="pt-5">
     <div class="list-group" id="list-tab" role="tablist">
-      <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Understanding CCPA</a>
-      <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Does my business qualify?</a>
-      <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Preparing for compliance</a>
+      <a class="list-group-item list-group-item-action active" id="list-h1" data-toggle="list" href="#list-1" role="tab" aria-controls="home">Understanding CCPA</a>
+      <a class="list-group-item list-group-item-action" id="list-h2" data-toggle="list" href="#list-2" role="tab" aria-controls="profile">Qualifying businesses</a>
+      <a class="list-group-item list-group-item-action" id="list-h3" data-toggle="list" href="#list-3" role="tab" aria-controls="messages">Preparing for compliance</a>
+      <a class="list-group-item list-group-item-action" id="list-h4" data-toggle="list" href="#list-4" role="tab" aria-controls="messages">Data inventory</a>
+      <a class="list-group-item list-group-item-action" id="list-h5" data-toggle="list" href="#list-5" role="tab" aria-controls="messages">Privacy Notices</a>
+      <a class="list-group-item list-group-item-action" id="list-h6" data-toggle="list" href="#list-6" role="tab" aria-controls="messages">Verifiable consumer requests</a>
+      <a class="list-group-item list-group-item-action" id="list-h7" data-toggle="list" href="#list-7" role="tab" aria-controls="messages">Right to know</a>
+      <a class="list-group-item list-group-item-action" id="list-h8" data-toggle="list" href="#list-8" role="tab" aria-controls="messages">Right to delete</a>
+      <a class="list-group-item list-group-item-action" id="list-h9" data-toggle="list" href="#list-9" role="tab" aria-controls="messages">Right to opt-out</a>
+      <a class="list-group-item list-group-item-action" id="list-h10" data-toggle="list" href="#list-10" role="tab" aria-controls="messages">Update service agreements</a>
+      <a class="list-group-item list-group-item-action" id="list-h11" data-toggle="list" href="#list-11" role="tab" aria-controls="messages">Internal personnel readiness</a>
       <!-- <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Mandatory security measures</a> -->
     </div>
     </div>
   </div>
   <div class="col-8 p-5 complianceText">
     <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+      <div class="tab-pane fade show active" id="list-1" role="tabpanel" aria-labelledby="list-h1">
       	<h2>California Consumer Privacy Act</h2>
       	<br>
       	The California Consumer Privacy Act (CCPA) is a bill that enhances privacy rights and consumer protection for residents in the state of California. The bill was passed on June 28, 2018 and becomes effective on January 1, 2020.
@@ -61,7 +80,7 @@
       	</ul>
       </div>
 
-      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+      <div class="tab-pane fade" id="list-2" role="tabpanel" aria-labelledby="list-h2">
 
       	<h2>CCPA applies to organizations that conduct business in California, and stafisfy one of the following three conditions:</h2>
       	<br>
@@ -73,7 +92,7 @@
 
       </div>
 
-      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+      <div class="tab-pane fade" id="list-3" role="tabpanel" aria-labelledby="list-h3">
       	<h2>Organizations that meet CCPA criteria need to prepare for compliance.</h2><br>
       	<ol>
       		<li>Establish and maintain a data inventory of personal information collected or sold from California residents.
@@ -87,12 +106,147 @@
       		<li>Train personnel with access to personal information about CCPA requirements.</li>
       	</ol>
       </div>
-      <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+       <div class="tab-pane fade" id="list-4" role="tabpanel" aria-labelledby="list-h4">
+       	<h2>Establish and maintain a data inventory of personal information collected or sold from California residents.</h2><br>
+       	<p>Perform review of IT systems to document the categories of personal information.</p>
+       	<ul>
+       		<li>Collected from California residents in the past 12 months; and</li>
+       		<li>Sold—or disclosed for business purposes—in the past 12 months.</li>
+       	</ul>
+       	<p>Another key feature of this workstream is to understand what policies, procedures, notices, agreements and other relevant documentation are already in place to avoid duplicating efforts. In fact, performing this work in earnest will help shape future readiness activities. Some businesses may have the internal resources and expertise to conduct this review in-house, while others may need to retain external consultants to perform a reliable assessment and identify data in-scope for CCPA (including legacy systems and unstructured data).<br><br>
+       	In addition, understanding data inventories could help determine if your business falls within CCPA’s scope because you buy, receive, sell or share personal information of 50,000 consumers or more.</p>
+       </div>
+
+       <div class="tab-pane fade" id="list-5" role="tabpanel" aria-labelledby="list-h5">
+       	<h2>
+       		Revise and update privacy notices
+       	</h2><br>
+       	<p>Organizations subject to CCPA must also affirmatively disclose the following in their online privacy policy:</p>
+       	<ul>
+       		<li>At or before the time of collection, what personal information it will collect about consumers and the purposes for which that data will be used;</li>
+       		<li>A description of a consumer’s rights and one or more designated methods for submitting requests;</li>
+       		<li>The categories of consumer personal information that were actually collected in the preceding 12 months; and</li>
+       		<li>The categories of consumer personal information that were sold or disclosed for “business purposes” in the preceding 12 months.</li>
+       	</ul>
+       	<p>Note that these categories of personal information must be disclosed by reference to the enumerated categories in Section 1798.110(c). For example, Section 1798.110(c)(3) of CCPA requires covered businesses to disclose—not only what personal information was collected—but also information about, “the business commercial purpose for collecting or selling personal information.”</p>
+       	<p>As part of this exercise, covered businesses will also need to decide if they wish to maintain one privacy notice for California residents and one for other consumers, or just have one universal policy.</p>
+       </div>
+
+       <div class="tab-pane fade" id="list-6" role="tabpanel" aria-labelledby="list-h6">
+       	<h2>Verifiable consumer requests</h2><br>
+       	<p>CCPA requires covered businesses to respond within 45 days from receipt of a verifiable consumer request with specific and accurate disclosures about:</p>
+       	<ul>
+       		<li>What categories of the requesting consumer’s personal information were actually collected in the past 12 months.</li>
+       		<li>What categories of the requesting consumer’s personal Information were sold or disclosed for business purposes in the past 12 months.</li>
+       	</ul>
+       	<h2>Data collection</h2><br>
+       	<p>CCPA also requires that covered businesses responding to verifiable consumer requests about data collection include information about:</p>
+       	<ul>
+       		<li>The categories of sources from which personal information was collected;</li>
+       		<li>The business or commercial purpose for collecting or selling that personal information;</li>
+       		<li>The categories of third parties with whom the business has shared personal information; and</li>
+       		<li>The specific pieces of personal information it has collected about that consumer.</li>
+       	</ul>
+       	<h2>Selling or disclosures</h2><br>
+       	<p>For responding to verifiable consumer requests about data sales or disclosures, covered businesses must disclose, as applicable:</p>
+       	<ul>The categories of personal information sold and to whom it was sold; or</ul>
+       	<ul>The categories of personal information disclosed for a business purpose and to whom it was disclosed.</ul>
+       	<h2>Contacting covered businesses.</h2><br>
+       	<p>Covered businesses must also provide at least two methods by which consumers may make verifiable consumer requests for disclosures. At a minimum, this includes:</p>
+       	<ul>
+       		<li>Toll-free number; and</li>
+       		<li>Online form.</li>
+       	</ul>
+       	<h2>Authentication and secure transmission.</h2><br>
+       	<p>Business IT systems must be able to authenticate each consumer before responding directly to specific requests. Any personal information transmitted to a verified consumer should be sent securely and encrypted in-transit.</p>
+       	<p>If a covered business does not collect sufficient personal information to verify or otherwise authenticate the identify of the consumer, then it may not require that consumer to create an account or supplement information to verify the request. Covered businesses in this situation may be unable to respond to consumer requests for information.</p>
+       </div>
+
+       <div class="tab-pane fade" id="list-7" role="tabpanel" aria-labelledby="list-h7">
+       	<h2>Right to know</h2><br>
+       	<p>CCPA guarantees consumers the right to access a copy of the “specific pieces of personal information that [a business] has collected about that consumer” to be delivered either by mail or electronically.</p>
+       	<p>IT systems must be capable of identifying personal information provided to the covered business directly by the consumer, and compiling that personal information in a portable and, to the extent technically feasible, in a readily useable format to be provided to a consumer or third party.</p>
+       	<p>All the time, covered businesses must be able to securely authenticate the consumer. In cases where a covered business is processing personal information on behalf of another business, however, those IT systems must be capable of assisting corporate customers directly subject to CCPA to comply with this requirement.</p><br>
+       	<h2>Data retention</h2><br>
+       	<p>IT systems must be able to retain personal information to respond to verifiable access requests (likely 12 months or as otherwise required by applicable law).  Covered businesses should also develop policies for the secure disposal of personal information no longer needed for legal or business reasons.</p>
+       </div>
+
+       <div class="tab-pane fade" id="list-8" role="tabpanel" aria-labelledby="list-h8">
+       	<h2>Right to delete</h2><br>
+       		<p>CCPA empowers consumers to request the deletion of their personal information from business servers and service providers. Covered businesses must be prepared to honor the deletion request, unless an exception applies. Those exceptions include situations where it is necessary to maintain the personal information to:</p>
+       		<ul>
+       			<li>Complete the transaction for which the personal information was collected, provide a good or service requested by the consumer, or otherwise perform a contract between the business and the consumer.</li>
+       			<li>Detect and maintain data security.</li>
+       			<li>Debug to identify and repair errors.</li>
+       			<li>Exercise a right provided for by law.</li>
+       			<li>Comply with the California Electronic Communications Privacy Act.</li>
+       			<li>Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest when deletion would render it impossible or seriously impair the achievement of such research.</li>
+       			<li>Comply with legal obligations.</li>
+       			<li>Enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li>
+       			<li>Otherwise use the consumer’s personal information internally in a lawful manner that is compatible with the context in which the personal information was provided.</li>
+       		</ul>
+       		<p>In cases where the covered business is acting as a data processor, IT Systems must be capable of assisting corporate customers to comply with this erasure requirement.</p>
+       </div>
+
+       <div class="tab-pane fade" id="list-9" role="tabpanel" aria-labelledby="list-h9">
+       		<h2>Right to opt-out of sale of personal information</h2><br>
+       		<p>CCPA gives consumers the right to opt-out of the sale of their personal information to third parties. If an individual consumer does not affirmatively opt out, then their data may be sold without further action (provided that sale is disclosed in the business’s privacy policy). To comply, covered businesses must:</p>
+       		<ul>
+       			<li>Post a “clear and conspicuous” link titled “Do Not Sell My Personal Information” on website.</li>
+       			<li>Describe the right and include a link to the opt-out page in privacy policy.</li>
+       			<li>Ensure individuals responsible for handling consumer inquiries are trained about opt-out requirements and how to direct consumers to exercise their opt-out rights.</li>
+       		</ul>
+       		<p>In addition, IT systems must be able to:</p>
+       		<ul>
+       			<li>Authenticate each consumer before responding directly to specific requests.</li>
+       			<li>Honor “Do Not Sell” requests</li>
+       			<li>Refrain from re-asking consumer for consent to sell “for at least 12 months before requesting that the consumer authorize the sale of” their personal information.</li>
+       			<li>Process opt-out requests from authorized representatives.</li>
+       		</ul><br>
+       		<h2>Restrictions on sale of minors’ personal information.</h2><br>
+       		<p>CCPA also affords minors special protections. Specifically, CCPA generally prohibits the sale of personal information if the business has actual knowledge that the consumer is under 16 years of age or willfully disregards the consumer’s age. To sell that data, covered businesses must:</p>
+       		<ul>
+       			<li>Ages 13 through 16: obtain affirmative consent to sell personal information directly from consumer.</li>
+       			<li>Ages 0 through 13: obtain parental consent to sell personal information.</li>
+       		</ul>
+       		<p>In addition, IT systems must be able to:</p>
+       		<ul>
+       			<li>Authenticate each consumer before responding directly to specific requests.</li>
+       			<li>Treat consumers differently depending on the consumer’s age.</li>
+       			<li>Identify, adequately inform, and obtain appropriate or verified parental consent securely to sell a minor’s personal information.</li>
+       			<li>Retain consent for as long as covered business maintains relationship with consumer.</li>
+       		</ul>
+       </div>
+
+       <div class="tab-pane fade" id="list-10" role="tabpanel" aria-labelledby="list-h10">
+       	<h2>Update service level agreements with third-party data processors.</h2><br>
+       		<p>Covered businesses should assess contractual commitments with third party data processors:</p>
+       		<ul>
+       			<li>Assess the categories of personal information processed by third parties.</li>
+       			<li>Assess whether processing activities meet the definition of “selling” under CCPA, or if a statutory exception applies.</li>
+       			<li>Explore the possibility of re-negotiating those arrangements to avoid the definition of “selling.”</li>
+       		</ul>
+       </div>
+       <div class="tab-pane fade" id="list-11" role="tabpanel" aria-labelledby="list-h11">
+       		<h2>Covered businesses must also train personnel with access to personal information about CCPA requirements.</h2><br>
+       		<p>CCPA mandates that individuals responsible for handling consumer inquiries or the Covered business’ compliance be “informed” of relevant statutory requirements.</p>
+       		<ul>
+       			<li>Develop CCPA awareness training for in-scope personnel.</li>
+       			<li>Monitor authorized users of IT systems containing personal information, including those belonging to minors.</li>
+       			<li>Written procedures, guidelines, and standards to ensure the use of CCPA-compliant development practices for in-house IT applications.</li>
+       			<li>Procedures to evaluate compliance of externally developed IT applications.</li>
+       			<li>Maintain current knowledge of CCPA legislative developments, including guidance from Attorney General.</li>
+       			<li>Due diligence and onboarding process for third party service providers’ compliance with CCPA requirements.</li>
+       			<li>Periodic assessment of third party IT systems.</li>
+       			<li>Representations and warranties about third party service providers’ compliance with CCPA.</li>
+       		</ul>
+       </div>
+
     </div>
   </div>
 </div>
 </div>
-
+</div>
 
 {% endblock %}
 
