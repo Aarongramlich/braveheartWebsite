@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'website_app',
     'crispy_forms',
     'localflavor',
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
@@ -128,10 +129,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, "static"),
-#     'braveheartWebsite/static/',
-# ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    # 'braveheartWebsite/staticfiles/',
+]
 
 MEDIA_URL = '/media/'
 
