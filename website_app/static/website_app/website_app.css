@@ -186,7 +186,7 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 #accentImage1{
 	width: 380px;
 	height: 210px;
-	margin-top: -1000px;
+	margin-top: -1050px;
 	/*margin-left:200px;*/
 }
 
@@ -201,10 +201,25 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
 /*STYLING FOR PRODUCT_DETAIL.HTML*/
 
+/*#nav-tab{
+	text-align:center;
+}*/
+
+
+#nav-tab{
+	font-size: 1.3em;
+}
+
+.card-title{
+	font-weight:600;
+}
+
+
+
 #solutions_banner{
 
 	/*top: 50%;*/
-	background-color:#1475BE;
+	background-color:#2d5d7b;
 	color: white;
 	text-align:center;
 	border-style:2px black;
@@ -214,6 +229,21 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 	margin-bottom: 105px;
 }
 
+.solutions-image {
+	height: 200px;
+	width: 200px;
+}
+
+.card.text-center{
+	border-radius: 20px;
+	border-color: #2d5d7b;
+	border-width:2px;
+}
+
+/*.row.solution-card{
+	height:300px;
+}
+*/
 
 /*OLD*/
 

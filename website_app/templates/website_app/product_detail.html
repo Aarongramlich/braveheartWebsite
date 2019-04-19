@@ -3,12 +3,12 @@
 
 {% block body_block %}
 
-<div style="background-color: #1475BE">
+<div style="background-color: #2d5d7b">
 <div class="container">
-	<div class="jumbotron" style="background-color:#1475BE;">
-		<div id='solutions_banner'>
-			<h1 class='heroStatement' style="font-size: 2.5em;font-weight: 400;text-align: left">Set your company up for success.</h1>
-			<h6 class='mt-4' style="font-weight: 300; font-size:1.3em;text-align: left">Braveheart Data gives you everything you need to give your customers the data privacy experience they expect.</h6>
+	<div class="jumbotron" style="background-color:#2d5d7b;">
+		<div class="pt-5" id='solutions_banner'>
+			<h1 class='heroStatement' style="font-size: 1.9em;font-weight: 400;text-align: left">Set your company up for success.</h1>
+			<h6 class='mt-4' style="font-weight: 300;text-align: left">Braveheart Data gives you everything you need to give your customers the data privacy experience they expect.</h6>
 			<div class="row">
 			<div class="col-sm">
 				<a href="{% url 'website_app:vision_detail' %}"><button type="button" class="btn btn-success" style="float: left;width: 200px;font-weight: 600;">Request a demo</button></a>
@@ -19,23 +19,221 @@
 </div>
 </div>
 
-<div class="container">
+<div class="container-fullwidth">
 <nav>
-	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+	<div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
 
-	    <a class="nav-item nav-link active" id="nav-business-tab" data-toggle="tab" href="#nav-business" role="tab" aria-controls="nav-business" aria-selected="true">BUSINESS & COMPLIANCE SOLUTIONS</a>
+	    <a class="nav-item nav-link solutions-title-1" id="nav-business-tab" data-toggle="tab" href="#nav-business" role="tab" aria-controls="nav-business" aria-selected="true">BUSINESS & COMPLIANCE SOLUTIONS</a>
 
 
-	    <a class="nav-item nav-link" id="nav-technology-tab" data-toggle="tab" href="#nav-technology" role="tab" aria-controls="nav-technology" aria-selected="true">TECHNOLOGY SOLUTIONS</a>
+	    <a class="nav-item nav-link active solutions-title-2" id="nav-technology-tab" data-toggle="tab" href="#nav-technology" role="tab" aria-controls="nav-technology" aria-selected="true">TECHNOLOGY SOLUTIONS</a>
 
-	    <a class="nav-item nav-link" id="nav-service-tab" data-toggle="tab" href="#nav-customer-service" role="tab" aria-controls="nav-customer-service" aria-selected="true">CUSTOMER SERVICE SOLUTIONS</a>
+	    <a class="nav-item nav-link solutions-title-3" id="nav-service-tab" data-toggle="tab" href="#nav-customer-service" role="tab" aria-controls="nav-customer-service" aria-selected="true">CUSTOMER SERVICE SOLUTIONS</a>
 
 	</div>
 </nav>
 <div class="tab-content">
-	<div class="tab-pane fade show active" id="nav-business" role="tabpanel" aria-labelledby="nav-business-tab"><br>TEST BUSINESS</div>
-	<div class="tab-pane fade" id="nav-technology" role="tabpanel" aria-labelledby="nav-technology-tab">TEST TECHNOLOGY</div>
-	<div class="tab-pane fade" id="nav-customer-service" role="tabpanel" aria-labelledby="nav-service-tab">TEST SERVICE</div>
+
+
+
+	<div class="tab-pane fade" id="nav-business" role="tabpanel" aria-labelledby="nav-business-tab"><br>
+
+
+
+		<div class="container mb-5" style="margin-top: 50px;">
+
+			<div class="card-deck">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/shield_blue.svg' %}" alt="Shield Image">
+						<div class="card-body">
+							<h5 class="card-title">Stay Compliant</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/identity.svg' %}" alt="Identity Image">
+						<div class="card-body">
+							<h5 class="card-title">Verified Consumer Requests</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+			<div class="card-deck mt-5">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/audit_traile.svg' %}" alt="Audit Trail Image">
+						<div class="card-body">
+							<h5 class="card-title">Robust Audit Trail</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/education.svg' %}" alt="Identity Image">
+						<div class="card-body">
+							<h5 class="card-title">Education and Training</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+
+	<div class="tab-pane fade show active" id="nav-technology" role="tabpanel" aria-labelledby="nav-technology-tab">
+
+		<div class="container mb-5" style="margin-top: 50px;">
+
+			<div class="card-deck">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/branded_webform1.svg' %}" alt="Web Form Image">
+						<div class="card-body">
+							<h5 class="card-title">Branded Web Form</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/webcase.svg' %}" alt="Web-to-Case Image">
+						<div class="card-body">
+							<h5 class="card-title">Web-to-Case</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+			<div class="card-deck mt-5">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/call-center2.svg' %}" alt="Telephony Image">
+						<div class="card-body">
+							<h5 class="card-title">Full Telephony Integration</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/omni_channel.svg' %}" alt="Omni-Channel Image">
+						<div class="card-body">
+							<h5 class="card-title">Omni-Channel Routing</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+			<div class="card-deck mt-5">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/analytics.svg' %}" alt="Service Analytics Image">
+						<div class="card-body">
+							<h5 class="card-title">Service Analytics</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/optout.svg' %}" alt="Opt-out Image">
+						<div class="card-body">
+							<h5 class="card-title">Automated Opt-out Requests</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+			<div class="card-deck mt-5">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/api_enabled.svg' %}" alt="API Enabled Image">
+						<div class="card-body">
+							<h5 class="card-title">API Enabled for Automated Requests</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/cloudbased1.svg' %}" alt="Cloud Based Image">
+						<div class="card-body">
+							<h5 class="card-title">100% Cloud Based</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+		</div>
+
+</div>
+
+
+	<div class="tab-pane fade" id="nav-customer-service" role="tabpanel" aria-labelledby="nav-service-tab">
+		<div class="container mb-5" style="margin-top: 50px;">
+
+			<div class="card-deck">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/call-center4.svg' %}" alt="Call Center Image">
+						<div class="card-body">
+							<h5 class="card-title">Full Service Call Center</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/branded_webform.svg' %}" alt="Multiple Channels Image">
+						<div class="card-body">
+							<h5 class="card-title">Service Through Multiple Channels</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+			<div class="card-deck mt-5">
+			
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/premier-support.svg' %}" alt="Premier Support Image">
+						<div class="card-body">
+							<h5 class="card-title">24/7 Premier Support</h5>
+							<p class="card-text">We automatically keep your collateral up-to-date with any new compliance measures and requirements.</p>
+						</div>
+					</div>
+				
+					<div class="card text-center">
+						<img class="card-img-top mx-auto pt-3 solutions-image" src="{% static 'website_app/routing.svg' %}" alt="Routing and Escalation Image">
+						<div class="card-body">
+							<h5 class="card-title">Routing Rules and Automated Escalation</h5>
+							<p class="card-text">We ensure your consumers are who they say they are by catching bad actors at the gate. You don't have to worry about bad requests, because we verify the validity up front.</p>
+						</div>
+					</div>
+		
+			
+			</div>
+
+		</div>
+
+
+
+	</div>
 </div>
 
 </div>
