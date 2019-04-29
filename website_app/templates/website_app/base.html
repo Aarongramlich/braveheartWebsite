@@ -30,10 +30,10 @@
 
 	<div style="background-color: #1475BE">
 	<div class='container-fullwidth'>
-	<nav class="navbar fixed-top navbar-light navbar-expand-lg" style="font-weight: 200;background-color: #ffffff;border-radius: 0px">
+	<nav class="navbar fixed-top navbar-light navbar-expand-lg" style="max-height: 100px ;font-weight: 200;background-color: #ffffff;border-radius: 0px">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a id="brand" class="navbar-brand mb-0 h1" style="color:#396598;" href="{% url 'website_app:index' %}"> <img src="{% static 'website_app/internet.svg' %}" width="40" height="40" alt=""></a>
+	      <a id="brand" class="navbar-brand mb-0 h1" style="color:#396598;" href="{% url 'website_app:index' %}"> <img src="{% static 'website_app/bh_logo_5.png' %}" width="180" height="auto" alt=""></a>
 	    </div>
 	    <ul class="nav navbar-nav" style="margin-right: 30px;">
 	      <!-- <li class="nav-item r-2"><a href=""><span style="color:#333333">Home</span></a></li> -->
@@ -48,10 +48,10 @@
 
 	      <li class="nav-item" style="font-size: 1em"><a href="{% url 'website_app:sales_create' %}"><span style="color:#5D5D5D"><b>Contact Us</b></span></a></li>
 
-	      <li class="nav-item r-2" style="margin-top:12px;"> 
+	      <!-- <li class="nav-item r-2" style="margin-top:12px;"> 
 	      		<button class="btn btn-info my-sm-0" type="button" style="font-size:.85em;width: 120px;"><b>Sign In</b>
 	      		</button>
-	      </li> 
+	      </li>  -->
 	    </ul>
 	  </div>
 	</nav>
@@ -66,5 +66,23 @@
 	<!-- </div> -->
 	
 </div>
+
+<footer class="page-footer">
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-3 mx-auto">
+				<h6 class="footer-link"><a href="{% url 'website_app:products_detail' %}" class="footer-link">Solutions</a></h6>
+			</div>
+			<div class="col-md-3 mx-auto">
+				<h6 class="footer-link"><a href="{% url 'website_app:compliance_detail' %}" class="footer-link">Stay Compliant</a></h6>
+			</div>
+			<div class="col-md-3 mx-auto">
+				<h6 class="footer-link"><a href="{% url 'website_app:sales_create' %}" class="footer-link">Contact Us</a></h6>
+			</div>		
+		</div>
+	</div>
+
+</footer>
+
 </body>
 </html>
