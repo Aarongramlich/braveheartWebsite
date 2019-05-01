@@ -16,6 +16,20 @@ html,body{
 }
 */
 
+.container-fullwidth.index-banner{
+	background-image: linear-gradient(to bottom right,#2D5D7B,#2EC0F9);
+	min-height: 600px;
+	color: white;
+	padding-bottom: 100px;
+/*	position: relative;*/
+ 	/*top: 50%;
+  	transform: translateY(-50%);*/
+}
+
+/*.navbar{
+	border-bottom: 1px solid;
+}*/
+
 .page-footer{
 	background-color:#2d5d7b;
 }
@@ -25,11 +39,11 @@ html,body{
 	color: white;
 }
 
-.nav-item{
+/*.nav-item{
 	margin:1.1em;
-	margin-right: 20px;
+	margin-right: 30px;
 	font-family: 'Montserrat', sans-serif;
-}
+}*/
 
 #bodyContainer{
 	font-family: 'Montserrat', sans-serif;
@@ -37,12 +51,15 @@ html,body{
 
 #challengeStatement{
 	font-size:1.3em;
+	position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
 }
 
 #home_banner{
 
 	/*top: 50%;*/
-	background-color:#1475BE;
+	/*background-color:#1475BE;*/
 	color: white;
 	text-align:center;
 	border-style:2px black;
@@ -52,36 +69,88 @@ html,body{
 	margin-bottom: 105px;
 }
 
+
 #home_accent_image2{
 
-	margin-top: -580px;
+	margin-top: -510px;
+	position: relative;
 	float:right;
 	width: 1000px;
 	
 }
 
+@media (max-width:1400px){
+    #home_accent_image2{
+        display:none;
+    }
+}
+
 #home_accent_image3{
 
-	margin-top: -525px;
+	margin-top: -510px;
+	position: relative;
 	float:left;
 	width: 1000px;
 	
 }
 
 
+@media (max-width:1400px){
+    #home_accent_image3{
+        display:none;
+    }
+}
 
-/*.heroStatement{
-	position: relative;
-	top: 50%;
-	bottom:50%;
 
+/*#hero-span{
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 200px;
 }*/
 
+
+#hero-text{
+	padding-top: 200px;
+}
+
+#hero-subtext{
+	padding-top: 20px;
+}
+
+.col-sm.index-banner-col{
+	width: 500px;
+	float: center;
+}
+
+.heroStatement{
+
+	display: inline-block;
+	text-align: center;
+	padding-top: 50px;
+	position: relative;
+	/*height: 200px;*/
+	max-width: 520px;
+	font-size:1.9em;
+	font-weight: 400;
+	/*margin: 50%;*/
+	
+
+}
+
+.mt-4.hero-subtext{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	max-width: 520px;
+	font-weight:300;
+}
+
 .jumbotron.j2{
-	margin-top: -100px;
+	margin-top: -50px;
 	background-color: white;
 	width: 80%;
-	padding:50px;
+	padding:100px;
 	border-radius:10px;
 	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
 }
@@ -194,6 +263,7 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 	margin-left: 200px;
 	margin-top: 105px;
 	margin-bottom: 105px;
+	
 }
 
 
@@ -280,11 +350,11 @@ li{
 }
 
 
-#brand{
+/*#brand{
 	color: #333333;
 	font-weight: bold;
 
-}
+}*/
 
 /*.home-exp{
 	padding: 20px;

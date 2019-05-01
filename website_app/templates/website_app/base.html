@@ -28,35 +28,75 @@
 </head>
 <body>
 
-	<div style="background-color: #1475BE">
-	<div class='container-fullwidth'>
-	<nav class="navbar fixed-top navbar-light navbar-expand-lg" style="max-height: 100px ;font-weight: 200;background-color: #ffffff;border-radius: 0px">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a id="brand" class="navbar-brand mb-0 h1" style="color:#396598;" href="{% url 'website_app:index' %}"> <img src="{% static 'website_app/bh_logo_5.png' %}" width="180" height="auto" alt=""></a>
-	    </div>
-	    <ul class="nav navbar-nav" style="margin-right: 30px;">
-	      <!-- <li class="nav-item r-2"><a href=""><span style="color:#333333">Home</span></a></li> -->
 
-	      <li class="nav-item" style="font-size: 1em"><a href="{% url 'website_app:products_detail' %}"><span style="color:#5D5D5D"><b>Solutions</b></span></a></li>
 
-	      <li class="nav-item" style="font-size: 1em"><a href="{% url 'website_app:compliance_detail' %}"><span style="color:#5D5D5D"><b>Stay Compliant</b></span></a></li>
+	<div style="background-color: white;border-bottom: 1px solid;">
 
-	      
 
-	      <!-- <li class="nav-item" style="font-size: 1.2em"><a href="{% url 'website_app:vision_detail' %}"><span style="color:#5D5D5D"><b>Our Vision</b></span></a></li> -->
+	
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"> 
+		
+		</br>
 
-	      <li class="nav-item" style="font-size: 1em"><a href="{% url 'website_app:sales_create' %}"><span style="color:#5D5D5D"><b>Contact Us</b></span></a></li>
 
-	      <!-- <li class="nav-item r-2" style="margin-top:12px;"> 
-	      		<button class="btn btn-info my-sm-0" type="button" style="font-size:.85em;width: 120px;"><b>Sign In</b>
-	      		</button>
-	      </li>  -->
-	    </ul>
-	  </div>
-	</nav>
+
+		
+		<nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-xl fixed-top navbar-light" style="font-weight: 200;background-color: #ffffff;">
+
+			<button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+
+    			<span class="navbar-toggler-icon"></span>
+
+  				</button> 
+
+				<!-- <div class="collapse navbar-toggleable-xs"> -->
+
+		  		<!-- <div class="container-fluid"> -->
+		    <a class="navbar-brand ml-5" href="{% url 'website_app:index' %}">
+				<img src="{% static 'website_app/bh_logo_transparent.png' %}" class="d-none d-md-block" width="160" height="auto" alt="">
+				<img src="{% static 'website_app/bh_logo_transparent_sm.png' %}" class="d-md-none" width="100" height="auto" alt="">
+			</a>
+		  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+		    
+			
+
+			   
+
+			    
+
+
+				    <ul class="nav navbar-nav ml-auto mr-5">
+
+				      <li class="nav-item active">
+				      	<a class="nav-link" href="{% url 'website_app:products_detail' %}"><b>Solutions</b></a>
+				      </li>
+
+				      <li class="nav-item active">
+				      	<a class="nav-link" href="{% url 'website_app:compliance_detail' %}"><b>Stay Compliant</b></a>
+				      </li>
+
+
+				      <li class="nav-item active">
+				      	<a class="nav-link" href="{% url 'website_app:sales_create' %}"><b>Contact Us</b></a>
+				      </li>
+
+				      <!-- <li class="nav-item r-2" style="margin-top:12px;"> 
+				      		<button class="btn btn-info my-sm-0" type="button" style="font-size:.85em;width: 120px;"><b>Sign In</b>
+				      		</button>
+				      </li>  -->
+				    </ul>
+			    </div>
+		  	<!-- </div> -->
+		  		<!-- </div> -->
+		</nav>
 	</div>
+
 	</div>
+	
+	</div>
+
+
 <!-- 	<div class="container" id="bodyContainer">
  -->
 	{% block body_block %}

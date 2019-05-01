@@ -8,26 +8,59 @@
 
 {% block body_block %}
 
-<div style="background-color: #1475BE">
-<div class="container">
-	<div class="jumbotron" style="background-color:#1475BE;">
-		<div id='home_banner'>
-			<h1 class='heroStatement' style="font-size: 1.9em;font-weight: 400;">Your customers expect data privacy, and we're here to help you give it to them.</h1>
-			<h6 class='mt-4' style="font-weight: 300;">Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
+
+<div class="container-fullwidth index-banner">
+	<div class="row align-self-center" id='hero-text'>
+		<div class="col-xl-2 offset-xl-5 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 offset-sm-1 col-12" style="min-width: 400px">
+			<h3>Your customers expect data privacy, and we're here to help you give it to them.</h3>
+		</div>
+	</div>
+	<div class="row align-self-center" id='hero-subtext'>
+		<div class="col-xl-2 offset-xl-5 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-col-1 " style="min-width: 400px">
+			<h6>Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
+		</div>
+		
+	</div>
+	
+
+</div>
+
+
+<!-- <div class="container-fullwidth index-banner">
+
+	<div class="row">
+		<div class="col-sm index-banner-col">
+
+	<div id='home_banner'>
+
 			<div class="row">
-			<div class="col-sm">
-				<a href="{% url 'website_app:vision_detail' %}"><button type="button" class="btn btn-success" style="float: center;width: 200px;font-weight: 600;">Learn More</button></a>
+				<div class="col-sm index-banner-col">	
+					<h1 class='heroStatement'>Your customers expect data privacy, and we're here to help you give it to them.</h1>
+				</div>	
 			</div>
+
+			<div class="row">
+				<div class="col-sm index-banner-col">
+					<h6 class='mt-4 hero-subtext'>Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
+					</div>
+			</div>
+	
 		</div>
 		</div>
 	</div>
-</div>
-</div>
 
-<div class="container"><img src="{% static 'website_app/home_accent_image2.png' %}" id="home_accent_image2"></div>
-<div class="container"><img src="{% static 'website_app/home_accent_image3.png' %}" id="home_accent_image3"></div>
+		<div class="row" style="padding-top: 10px;">
+					<div class="col-sm  index-banner-col">
+						<a href="{% url 'website_app:products_detail' %}"><button type="button" class="btn btn-success" style="float: center;width: 200px;font-weight: 600;">Learn More</button></a>
+					</div>
+					
+		</div>
+</div> -->
 
-<div class="container" align="center" style="padding-bottom: 100px;" >
+<!-- <div class="container"><img src="{% static 'website_app/home_accent_image2.png' %}" id="home_accent_image2"></div>
+<div class="container"><img src="{% static 'website_app/home_accent_image3.png' %}" id="home_accent_image3"></div> -->
+
+<div class="container" align="center" style="padding-bottom: 100px; position: relative;" >
 	<div class="jumbotron j2">
 		<!-- <p style="color:#5D5D5D; font-size: 1.1em;opacity: .7;"><strong>The Challenge</strong></p> -->
 		<p id="challengeStatement">We help companies stay compliant with the complex world<br> of data privacy legislation.</p>
@@ -61,40 +94,29 @@
 				Dedicated branded webpages your site can leverage.
 			</div>
 			<div class="col-sm home-exp">
-				Full service call-center that will scale with you.
+				Full service call-center that will scales with you.
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm home-exp">
-				Consumer identity verification
+				Consumer identity verification through 2FA and other mechanisms.
 			</div>
 			<div class="col-sm home-exp">
-				100% Cloud based
+				100% Cloud based solutions and processes.
 			</div>
 			<div class="col-sm home-exp">
-				Omni-channel enabled
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm home-exp">
-				Comprehensive audit trail of consumer requests
-			</div>
-			<div class="col-sm home-exp">
-				Better handle consumer opt-out requests
-			</div>
-			<div class="col-sm home-exp">
-				24/7 Customer Service
+				Highly qualified and trained Customer Service Reps so that you don't have to hire.
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm home-exp">
-				Educational newsletters and webinars
+				Educational newsletters and webinars to keep your team up-to-date.
 			</div>
 			<div class="col-sm home-exp">
-				Efficiently create and route consumer data requests
+				Receive consumer data requests both real-time and through batch processes.
 			</div>
 			<div class="col-sm home-exp">
-				Routing rules and automated escalation 
+				Omni-channel enabled provides flexibility and control to your customers.
 			</div>
 		</div>
 		<div class="row">
@@ -127,7 +149,7 @@
 						<h5 class="card-title">How new legislation affects your business</h5>
 						<p class="card-text">With new data privacy restrictions comes necessary changes to stay compliant. See the report here.</p>
 						<div class="mt-auto" style="text-align: center;">
-							<a href="{% url 'website_app:compliance_detail' %}" class="btn btn-primary index-resource-button">Learn more</a>
+							<a href="{% url 'website_app:compliance_detail' %}" class="btn btn-info index-resource-button">Learn more</a>
 						</div> 
 					</div>
 				</div>
@@ -144,7 +166,7 @@
 						<h5 class="card-title">How to prepare for CCPA</h5>
 						<p class="card-text">New to data compliance? See how to best prepare yourself for data compliance. </p> 
 						<div class="mt-auto" style="text-align: center;">
-							<a href="{% url 'website_app:compliance_detail' %}" class="btn btn-primary index-resource-button">Read now</a>
+							<a href="{% url 'website_app:compliance_detail' %}" class="btn btn-info index-resource-button">Read now</a>
 						</div>
 					</div>
 				</div> 
@@ -159,7 +181,7 @@
 						<h5 class="card-title">The Braveheart Data experience</h5>
 						<p class="card-text">The Braveheart Data experience makes it easy for your company to stay compliant and handle consumer data requests. See how.</p>
 						<div class="mt-auto" style="text-align: center;">
-							<a href="{% url 'website_app:products_detail' %}" class="btn btn-primary index-resource-button">Check it out</a>
+							<a href="{% url 'website_app:products_detail' %}" class="btn btn-info index-resource-button">Check it out</a>
 						</div>
 					</div>
 				</div>
