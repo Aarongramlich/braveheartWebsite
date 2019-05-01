@@ -17,7 +17,10 @@ html,body{
 */
 
 .container-fullwidth.index-banner{
-	background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF,#F5F1E3);
+	background: radial-gradient(circle, rgba(20,117,190,1) 0%, rgba(46,192,249,0.75) 100%);
+	/*background-image: linear-gradient(to bottom,#52489C,#2EC0F9,#FFFFFF);*/
+	/*background-image: linear-gradient(to bottom,#52489C,#1475be,#2EC0F9,#FFFFFF);*/
+	/*background-image: linear-gradient(to bottom,#2D5D7B,#1475be,#FFFFFF);*/
 	min-height: 600px;
 	color: white;
 	padding-bottom: 100px;
@@ -117,6 +120,16 @@ html,body{
 	font-size: 1.7em;
 }
 
+#solution-banner-title{
+	font-size:3em;
+	font-weight:300;
+}
+
+#solution-banner-text{
+	font-size:1em;
+}
+
+
 #index-hero-text{
 	font-size:1em;
 	
@@ -129,7 +142,7 @@ html,body{
 
 
 .col-12.banner-col{
-	max-width: 600px;
+	max-width: 800px;
 }
 
 .col-sm.index-banner-col{
@@ -254,6 +267,23 @@ html,body{
 /*
 STYLING FOR PROSPECT_FORM.HTML*/
 
+.container-fullwidth.contact-banner{
+	background-image: linear-gradient(to bottom,#52489C,#2EC0F9,#FFFFFF);
+	/*background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );*/
+	min-height: 600px;
+	color: white;
+	padding-bottom: 100px;
+}
+
+#contact-banner-row{
+	padding-top: 200px;
+}
+
+#contact-hero-text{
+	text-align: center;
+	font-size:1.7em;
+}
+
 .col-sm-6.contactUsText{
 	font-weight:300;
 	text-align:left;
@@ -334,10 +364,29 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 }
 
 
+.container-fullwidth.solutions-banner{
+	/*background: linear-gradient(180deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);*/
 
-#solutions_banner{
+	background: linear-gradient(180deg, rgba(244,244,244,0.750656512605042) 0%, rgba(249,249,249,0.4) 50%, rgba(255,255,255,1) 100%);
+	/*background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF);*/
+	min-height: 600px;
+	color: #2d5d7b;
+	padding-bottom: 100px;
+}
 
-	/*top: 50%;*/
+#solution-banner-content{
+	padding-top: 200px;
+}
+
+#solution-banner-subcontent{
+	padding-top: 20px;
+}
+
+
+
+/*#solutions_banner{
+
+	
 	background-color:#2d5d7b;
 	color: white;
 	text-align:center;
@@ -347,7 +396,7 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 	margin-top: 105px;
 	margin-bottom: 105px;
 }
-
+*/
 .solutions-image {
 	height: 200px;
 	width: 200px;

@@ -3,32 +3,45 @@
 
 {% block body_block %}
 
-<div style="background-color: #2d5d7b">
-<div class="container">
-	<div class="jumbotron" style="background-color:#2d5d7b;">
-		<div class="pt-5" id='solutions_banner'>
-			<h1 class='heroStatement' style="font-size: 1.9em;font-weight: 400;text-align: left">Set up your company for success.</h1>
-			<h6 class='mt-4' style="font-weight: 300;text-align: left">Braveheart Data gives you everything you need to give your customers the data privacy experience they expect.</h6>
-			<div class="row">
-			<div class="col-sm">
-				<a href="{% url 'website_app:vision_detail' %}"><button type="button" class="btn btn-success" style="float: left;width: 200px;font-weight: 600;">Request a demo</button></a>
-			</div>
+<!-- <div style="background-color: #2d5d7b"> -->
+<div class="container-fullwidth solutions-banner">
+	
+
+	<div class="row d-flex justify-content-center" id='solution-banner-content'>
+		<div class="col-12 banner-col">
+			<p id='solution-banner-title'>The right tools for success.</p>
 		</div>
+	</div>
+	
+
+	<div class="row d-flex justify-content-center" id='solution-banner-subcontent'>	
+		<div class="col-12 banner-col">
+			<p id='solution-banner-text'>Braveheart Data gives you everything you need to give your customers the data privacy experience they expect, all while keeping your company compliant.</p>
+			<!-- <h6 class='mt-4' style="font-weight: 300;text-align: left">Braveheart Data gives you everything you need to give your customers the data privacy experience they expect.</h6> -->
+		</div>
+	</div>
+
+	<div class="row d-flex justify-content-center">
+		<div class="col-12 text-center">
+				<a href="{% url 'website_app:sales_create' %}"><button type="button" class="btn btn-success">Request a demo</button></a>
 		</div>
 	</div>
 </div>
-</div>
+
+
 
 <div class="container-fullwidth">
 <nav>
-	<div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-
-	    <a class="nav-item nav-link solutions-title-1" id="nav-business-tab" data-toggle="tab" href="#nav-business" role="tab" aria-controls="nav-business" aria-selected="true">BUSINESS & COMPLIANCE SOLUTIONS</a>
 
 
-	    <a class="nav-item nav-link active solutions-title-2" id="nav-technology-tab" data-toggle="tab" href="#nav-technology" role="tab" aria-controls="nav-technology" aria-selected="true">TECHNOLOGY SOLUTIONS</a>
+	<div class="nav nav-tabs justify-content-center flex-column flex-sm-row" id="nav-tab" role="tablist">
 
-	    <a class="nav-item nav-link solutions-title-3" id="nav-service-tab" data-toggle="tab" href="#nav-customer-service" role="tab" aria-controls="nav-customer-service" aria-selected="true">CUSTOMER SERVICE SOLUTIONS</a>
+	    <a class="nav-item nav-link solutions-title-1 flex-sm-fill text-sm-center" id="nav-business-tab" data-toggle="tab" href="#nav-business" role="tab" aria-controls="nav-business" aria-selected="true">BUSINESS & COMPLIANCE SOLUTIONS</a>
+
+
+	    <a class="nav-item nav-link active solutions-title-2 flex-sm-fill text-sm-center" id="nav-technology-tab" data-toggle="tab" href="#nav-technology" role="tab" aria-controls="nav-technology" aria-selected="true">TECHNOLOGY SOLUTIONS</a>
+
+	    <a class="nav-item nav-link solutions-title-3 flex-sm-fill text-sm-center" id="nav-service-tab" data-toggle="tab" href="#nav-customer-service" role="tab" aria-controls="nav-customer-service" aria-selected="true">CUSTOMER SERVICE SOLUTIONS</a>
 
 	</div>
 </nav>
