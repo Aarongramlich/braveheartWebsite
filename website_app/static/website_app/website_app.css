@@ -53,8 +53,12 @@ html,body{
 }
 
 #challengeStatement{
-	font-size:1.3em;
-	position: relative;
+	font-size:1.4em;
+/*	position: relative;*/
+	padding-top: 40px;
+	float: center;
+	margin-right: 20%;
+	margin-left: 20%;
 
 }
 
@@ -117,7 +121,7 @@ html,body{
 }
 
 #index-hero-title{
-	font-size: 1.7em;
+	font-size: 2em;
 }
 
 #solution-banner-title{
@@ -184,12 +188,18 @@ html,body{
 	margin-top: -50px;
 	background-color: white;
 	width: 80%;
-	padding:100px;
+	padding-bottom:100px; 
+	padding-right:100px;
+	padding-left:100px ;
+	padding-top:75px;
 	border-radius:10px;
 	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
 }
 
-
+#value-add{
+	font-size:1.1em;
+	font-weight: 300;
+}
 
 .col-4.d-none.d-sm-block.solutionTitle{
 	padding: 5px;
@@ -270,18 +280,18 @@ STYLING FOR PROSPECT_FORM.HTML*/
 .container-fullwidth.contact-banner{
 	background-image: linear-gradient(to bottom,#52489C,#2EC0F9,#FFFFFF);
 	/*background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );*/
-	min-height: 600px;
+	min-height: 400px;
 	color: white;
-	padding-bottom: 100px;
+	/*padding-bottom: 20px;*/
 }
 
 #contact-banner-row{
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 #contact-hero-text{
 	text-align: center;
-	font-size:1.7em;
+	font-size:3em;
 }
 
 .col-sm-6.contactUsText{
@@ -345,6 +355,13 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 	margin-top: -500px;
 	float:right;
 	/*margin-left:200px;*/
+}
+
+#contact-accent-image{
+	width: 300px;
+	height:auto;
+	/*margin-top:-2000px;*/
+	float: center;
 }
 
 
@@ -513,8 +530,28 @@ form{
 
 /*PROSPECT_DETAIL.HTML*/
 
-.jumbotron.resource-jumbo{
-	background-color: white;
-	border-radius:10px;
-	box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.2);
+.container-fullwidth.contact-detail-banner{
+	background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF);
+	/*min-height: 600px;*/
+	color: white;
+	padding-bottom: 75px;  
 }
+
+#contact-detail-banner-title{
+	padding-top: 30px;
+	font-size:3em;
+	text-align: center;
+}
+
+#contact-detail-banner-text{
+	text-align: center;
+	font-size:1.5em;
+}
+
+#contact-detail-accent-image{	
+	padding-top: 150px;
+	width: 100px;
+}
+
+
+
