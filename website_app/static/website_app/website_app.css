@@ -17,7 +17,7 @@ html,body{
 */
 
 .container-fullwidth.index-banner{
-	background-image: linear-gradient(to bottom right,#2D5D7B,#2EC0F9);
+	background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF,#F5F1E3);
 	min-height: 600px;
 	color: white;
 	padding-bottom: 100px;
@@ -52,8 +52,7 @@ html,body{
 #challengeStatement{
 	font-size:1.3em;
 	position: relative;
- 	top: 50%;
-  	transform: translateY(-50%);
+
 }
 
 #home_banner{
@@ -114,8 +113,23 @@ html,body{
 	padding-top: 200px;
 }
 
+#index-hero-title{
+	font-size: 1.7em;
+}
+
+#index-hero-text{
+	font-size:1em;
+	
+}
+
 #hero-subtext{
-	padding-top: 20px;
+	padding-top: 5px;
+}
+
+
+
+.col-12.banner-col{
+	max-width: 600px;
 }
 
 .col-sm.index-banner-col{
@@ -146,7 +160,14 @@ html,body{
 	font-weight:300;
 }
 
+#index-solution-container{
+	text-align: center;
+	padding-bottom: 100px;
+	position:relative;
+}
+
 .jumbotron.j2{
+	text-align: center;
 	margin-top: -50px;
 	background-color: white;
 	width: 80%;
@@ -157,14 +178,14 @@ html,body{
 
 
 
-.col-sm.solutionTitle{
+.col-4.d-none.d-sm-block.solutionTitle{
 	padding: 5px;
 	color: #5D5D5D;
 	font-weight: 600;
 
 }
 
-.col-sm.home-exp{
+.col-4.d-none.d-sm-block.home-exp{
 	padding-top: 30px;
 	font-size: .85em;
 	color:#5D5D5D;
@@ -187,7 +208,7 @@ html,body{
 	object-fit: cover;
 }
 
-.col-sm.resourceTitle.mt-5{
+.col-md-4.d-none.d-sm-block.resourceTitle.mt-5{
 	/*background-color: #F9F9F9;*/
 	border-radius: 10px;
 	margin-right: 25px;

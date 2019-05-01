@@ -10,14 +10,14 @@
 
 
 <div class="container-fullwidth index-banner">
-	<div class="row align-self-center" id='hero-text'>
-		<div class="col-xl-2 offset-xl-5 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12 offset-sm-1 col-12" style="min-width: 400px">
-			<h3>Your customers expect data privacy, and we're here to help you give it to them.</h3>
+	<div class="row d-flex justify-content-center" id='hero-text'>
+		<div class="col-12 banner-col">
+			<p id='index-hero-title'>Your customers expect data privacy, and we're here to help you give it to them.</p>
 		</div>
 	</div>
-	<div class="row align-self-center" id='hero-subtext'>
-		<div class="col-xl-2 offset-xl-5 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-10 offset-sm-1 col-10 offset-col-1 " style="min-width: 400px">
-			<h6>Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</h6>
+	<div class="row d-flex justify-content-center" id='hero-subtext'>
+		<div class="col-12 banner-col">
+			<p id='index-hero-text'>Braveheart Data is your dedicated partner in staying compliant with the data privacy expectations your customers demand. We do the heavy lifting, so that you don't have to.</p>
 		</div>
 		
 	</div>
@@ -60,67 +60,68 @@
 <!-- <div class="container"><img src="{% static 'website_app/home_accent_image2.png' %}" id="home_accent_image2"></div>
 <div class="container"><img src="{% static 'website_app/home_accent_image3.png' %}" id="home_accent_image3"></div> -->
 
-<div class="container" align="center" style="padding-bottom: 100px; position: relative;" >
-	<div class="jumbotron j2">
+<div class="container" id='index-solution-container'>
+	<div class="row">
+	<div class="col-12 mx-auto jumbotron j2">
 		<!-- <p style="color:#5D5D5D; font-size: 1.1em;opacity: .7;"><strong>The Challenge</strong></p> -->
 		<p id="challengeStatement">We help companies stay compliant with the complex world<br> of data privacy legislation.</p>
 		
 		
 		<div class="row mt-5">
-			<div class="col-sm home-exp" style="padding: 20px">
+			<div class="col-4 home-exp" style="padding: 20px">
 				<img src="{% static 'website_app/shield.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
-			<div class="col-sm home-exp" style="padding: 20px">
+			<div class="col-4 home-exp" style="padding: 20px">
 				<img src="{% static 'website_app/cloud-computing.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
-			<div class="col-sm home-exp" style="padding: 20px">
+			<div class="col-4 home-exp" style="padding: 20px">
 				<img src="{% static 'website_app/deal.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm solutionTitle">BUSINESS & COMPLIANCE SOLUTIONS
+			<div class="col-4 d-none d-sm-block solutionTitle">BUSINESS & COMPLIANCE SOLUTIONS
 			</div>
-			<div class="col-sm solutionTitle">TECHNOLOGY<br> SOLUTIONS
+			<div class="col-4 d-none d-sm-block solutionTitle">TECHNOLOGY<br> SOLUTIONS
 			</div>
-			<div class="col-sm solutionTitle">CUSTOMER SERVICE SOLUTIONS
+			<div class="col-4 d-none d-sm-block solutionTitle">CUSTOMER SERVICE SOLUTIONS
 				
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block home-exp">
 				Ensure you stay compliant with an ever-changing landscape.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Dedicated branded webpages your site can leverage.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Full service call-center that will scales with you.
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Consumer identity verification through 2FA and other mechanisms.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				100% Cloud based solutions and processes.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Highly qualified and trained Customer Service Reps so that you don't have to hire.
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Educational newsletters and webinars to keep your team up-to-date.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Receive consumer data requests both real-time and through batch processes.
 			</div>
-			<div class="col-sm home-exp">
+			<div class="col-4 d-none d-sm-block  home-exp">
 				Omni-channel enabled provides flexibility and control to your customers.
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm pt-3" style="font-size: .9em;">
+			<div class="col-12 pt-3" style="font-size: .9em;">
 				<a href="{% url 'website_app:products_detail' %}"><button type="button" class="btn btn-info">Explore Solutions</button></a>
 			</div>
 		</div>
@@ -136,11 +137,16 @@
 			</div>
 		</div> -->
 	</div>
+</div>
 
 <div class="container-fullwidth" style="margin-top: 80px;border-top: 1px #e8e8e8 solid;">
-	<h1 class="resources">Resources</h1>
 	<div class="row">
-			<div class="col-sm resourceTitle mt-5">
+		<div class="col-12 d-none d-sm-block">
+			<h1 class="resources">Resources</h1>
+		</div>
+	</div>
+	<div class="row">
+			<div class="col-md d-none d-sm-block resourceTitle mt-5">
 
 				<div class="card index-resource-card">
 					<img src="{% static 'website_app/law_resources_image.png' %}" class="card-img-top index-resource-img" alt="How you're affected">
@@ -157,7 +163,7 @@
 
 			</div>
 
-			<div class="col-sm resourceTitle mt-5">
+			<div class="col-md d-none d-sm-block resourceTitle mt-5">
 
 				<div class="card index-resource-card">
 					<img src="{% static 'website_app/preperation_resource_image.png' %}" class="card-img-top index-resource-img" alt="Braveheart Experience">
@@ -172,7 +178,7 @@
 				</div> 
 			</div>
 
-			<div class="col-sm resourceTitle mt-5">
+			<div class="col-md d-none d-sm-block resourceTitle mt-5">
 
 				<div class="card index-resource-card">
 					<img src="{% static 'website_app/braveheart_experience.png' %}" class="card-img-top index-resource-img">
