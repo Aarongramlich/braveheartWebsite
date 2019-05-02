@@ -70,44 +70,26 @@
 	<div class="row">
 	<div class="col-12 mx-auto jumbotron j2">
 		<!-- <p style="color:#5D5D5D; font-size: 1.1em;opacity: .7;"><strong>The Challenge</strong></p> -->
-		<div class="row"  id="value-add">
-			<div class="col-6 col-sm-3">
-				<img src="{% static 'website_app/success_check.svg' %}" width="50" height="50">
-				<p id="value-add" style="padding-top: 10px;"><b>Ensure<br> compliance</b></p>
-			</div>
-			<div class="col-6 col-sm-3">
-				<img src="{% static 'website_app/success_check.svg' %}" width="50" height="50">
-				<p id="value-add" style="padding-top: 10px;"><b>Increase<br> customer trust</b></p>
-			</div>
-			<div class="col-6 col-sm-3">
-				<img src="{% static 'website_app/success_check.svg' %}" width="50" height="50">
-				<p id="value-add" style="padding-top: 10px;"><b>Improve customer request time</b></p>
-			</div>
-			<div class="col-6 col-sm-3">
-				<img src="{% static 'website_app/success_check.svg' %}" width="50" height="50">
-				<p id="value-add" style="padding-top: 10px;"><b>Decrease<br> overhead costs</b></p>
-			</div>
-		</div>
-		<p id="challengeStatement">We provide the tools and services that companies need to stay compliant in the ever-changing world of consumer data privacy.</p>
+	
 		
 		
-		<div class="row mt-5">
-			<div class="col-4 home-exp" style="padding: 20px">
+		<div class="row">
+			<div class="col-4 home-exp" style="padding: 15px">
 				<img src="{% static 'website_app/shield.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
-			<div class="col-4 home-exp" style="padding: 20px">
+			<div class="col-4 home-exp" style="padding: 15px">
 				<img src="{% static 'website_app/cloud-computing.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
-			<div class="col-4 home-exp" style="padding: 20px">
+			<div class="col-4 home-exp" style="padding: 15px">
 				<img src="{% static 'website_app/deal.svg' %}"  class="img-fluid" width="100" height="100" alt="">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-4 d-none d-sm-block solutionTitle">BUSINESS & COMPLIANCE SOLUTIONS
+			<div class="col-4 d-none d-sm-block solutionTitle">BUSINESS & COMPLIANCE<br> SOLUTIONS
 			</div>
 			<div class="col-4 d-none d-sm-block solutionTitle">TECHNOLOGY<br> SOLUTIONS
 			</div>
-			<div class="col-4 d-none d-sm-block solutionTitle">CUSTOMER SERVICE SOLUTIONS
+			<div class="col-4 d-none d-sm-block solutionTitle">CUSTOMER SERVICE<br> SOLUTIONS
 				
 			</div>
 		</div>
@@ -149,24 +131,63 @@
 				<a href="{% url 'website_app:products_detail' %}"><button type="button" class="btn btn-info">Explore Solutions</button></a>
 			</div>
 		</div>
-		<!-- <div class="row">
-			<div class="col-sm" style="padding: 1px;font-size: .9em;">
-				<button type="button" class="btn btn-info">run analysis</button>
-			</div>
-			<div class="col-sm" style="padding: 1px;font-size: .9em;">
-				<button type="button" class="btn btn-info">explore companies</button>
-			</div>
-			<div class="col-sm" style="padding: 1px;font-size: .9em;">
-				<button type="button" class="btn btn-info">learn more</button>
-			</div>
-		</div> -->
+		
 	</div>
 </div>
 
-<div class="container-fullwidth" style="margin-top: 80px;border-top: 1px #e8e8e8 solid;">
+</div>
+
+<div class="container-fluid" id="value-add-container">
+	<div class="row pr-5 pl-5">
+		<div class="col-6 col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="70" height="auto">
+				<p style="padding-top: 20px;" class="mt-auto">Ensure compliance<!-- <br> with expert guidence. --></p>
+			</div>
+			<div class="col-6 col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="70" height="auto">
+				<p style="padding-top: 20px;" class="mt-auto">Increase customer trust<!--  by providing the right data. --></p>
+			</div>
+			<div class="col-6 col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="70" height="auto">
+				<p style="padding-top: 20px;" class="mt-auto">Improve customer request time<!--  with a mult-channel approach. --></p>
+			</div>
+			<div class="col-6 col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="70" height="auto">
+				<p style="padding-top: 20px;" class="mt-auto">Better know your customers<!--  through data and analytics. --></p>
+			</div>
+		
+	</div>
+</div>
+
+
+<!-- <div class="container-fluid" id="value-add-container" style="background-color:rgba(45, 93, 123) ">
+		<div class="row"  id="value-add">
+			<div class="col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="40" height="auto">
+				<p style="padding-top: 60px;" class="mt-auto"><b>Ensure<br> compliance<br> with expert guidence.</b></p>
+			</div>
+			<div class="col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="40" height="auto">
+				<p style="padding-top: 80px;" class="mt-auto"><b>Increase<br> customer trust by providing the right data.</b></p>
+			</div>
+			<div class="col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="40" height="auto">
+				<p style="padding-top: 60px;" class="mt-auto"><b>Improve customer<br> request time with a mult-channel approach.</b></p>
+			</div>
+			<div class="col-sm-6 col-md-3 value-add-text">
+				<img src="{% static 'website_app/success_check.svg' %}" width="40" height="auto">
+				<p style="padding-top: 40px;" class="mt-auto"><b>Better know<br> your customers through data and analytics.</b></p>
+			</div>
+		</div>
+		<!-- <p id="challengeStatement">We provide the tools and services that companies need to stay compliant in the ever-changing world of consumer data privacy.</p>
+	
+</div> -->
+
+
+<div class="container resource-container">
 	<div class="row">
 		<div class="col-12 d-none d-sm-block">
-			<h1 class="resources">Resources</h1>
+			<h1 class="resources" style="text-align: center">Resources</h1>
 		</div>
 	</div>
 	<div class="row">
@@ -228,7 +249,7 @@
 			</div> -->
 		</div>
 </div>
-</div>
+
 <div style="background-color: #1475BE;">
 	<p class="reachOutText">Want to find out how Braveheart Data can help your team?</p>
 	<div align="center">
