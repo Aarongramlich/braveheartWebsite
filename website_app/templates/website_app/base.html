@@ -103,16 +103,19 @@
 
 <footer class="page-footer">
 	<div class="container text-center">
-		<div class="row">
-			<div class="col-md-3 mx-auto">
+		<div class="row d-flex">
+			<div class="col-3 mx-auto">
 				<h6 class="footer-link"><a href="{% url 'website_app:products_detail' %}" class="footer-link">Solutions</a></h6>
 			</div>
-			<div class="col-md-3 mx-auto">
+			<div class="col-3 mx-auto">
 				<h6 class="footer-link"><a href="{% url 'website_app:compliance_detail' %}" class="footer-link">Stay Compliant</a></h6>
 			</div>
-			<div class="col-md-3 mx-auto">
+			<div class="col-3 mx-auto">
 				<h6 class="footer-link"><a href="{% url 'website_app:sales_create' %}" class="footer-link">Contact Us</a></h6>
-			</div>		
+			</div>
+			<div class="col-3 pt-4">
+				<img src="{% static 'website_app/bh_logo_transparent_sm.png' %}" style="width: 150px; height: auto;">
+			</div>	
 		</div>
 	</div>
 
