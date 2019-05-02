@@ -315,8 +315,33 @@ STYLING FOR PROSPECT_FORM.HTML*/
 /*
 STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
+.container-fullwidth.compliance-banner{
+	background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF);
+	min-height: 600px;
+	color: white;
+}
+
+#compliance-banner-content{
+	padding-top: 180px;
+}
+
+#compliance-banner-subcontent{
+	padding-top: 20px;
+}
+
+#compliance-banner-title{
+	font-size:2em;
+	font-weight:300;
+	max-width: 600px;
+}
+
+#compliance-banner-text{
+	font-size: 1em;
+	max-width: 600px;
+}
+
 #compliance_banner{
-	background-color:#2d5d7b;
+	background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF);
 	color: white;
 	text-align:center;
 	border-style:2px black;
@@ -342,12 +367,7 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 }
 
 
-#accentImage1{
-	width: 380px;
-	height: 210px;
-	margin-top: -1050px;
-	/*margin-left:200px;*/
-}
+
 
 #accentImage2{
 	width: 830px;
@@ -383,8 +403,8 @@ STYLING FOR COMPLIANCE_DETAIL.HTML*/
 
 .container-fullwidth.solutions-banner{
 	/*background: linear-gradient(180deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);*/
-
-	background: linear-gradient(180deg, rgba(244,244,244,0.750656512605042) 0%, rgba(249,249,249,0.4) 50%, rgba(255,255,255,1) 100%);
+background: linear-gradient(180deg, rgba(204,203,203,0.45) 18%, rgba(255,255,255,0) 100%);
+	/*background: linear-gradient(180deg, rgba(244,244,244,0.750656512605042) 0%, rgba(249,249,249,0.4) 50%, rgba(255,255,255,1) 100%);*/
 	/*background-image: linear-gradient(to bottom right,#2D5D7B,#5271FF);*/
 	min-height: 600px;
 	color: #2d5d7b;
