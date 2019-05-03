@@ -27,7 +27,7 @@ MEDIA_DIR = os.path.join(BASE_DIR,"media")
 SECRET_KEY = '^o=v&=-c#2@q1&%o_@c59l77fqkmuwx2vuubud1+fgv%r+!1i$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -77,6 +77,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'braveheartWebsite.wsgi.application'
 
+SECURE_SSL_REDIRECT = True
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
